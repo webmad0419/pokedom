@@ -1,0 +1,27 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pokemon {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin-top: 30px;
+}
+
+.pokemon > h2 {
+    min-width: 50%; 
+}
+
+.pokemon > section {
+    min-width: 50%;
+}
+
+.error {
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: tomato;
+    color: white;
+}
